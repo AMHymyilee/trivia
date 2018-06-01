@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <a href="https://a248.e.akamai.net/ib.huluim.com/show_key_art/23184?size=1600x600&region=US"><img src="https://a248.e.akamai.net/ib.huluim.com/show_key_art/23184?size=1600x600&region=US" /></a>
+  </head>
+  <body>
+    <h1>Trivia de "Crazy ex girlfriend"</h1>
+    <h2> <button id ="btn" onclick ="myFunction()">Start</button> </h2>
+<h3>
+<div id ="triviaIniciar" class="column1">
+<ol>
+<form id ="quiz" name = "quiz">
+
+  <p> ¿Como te llamas? </p>
+  <input id ="name" name="name" type="text">
+  <p>¿Cual es el nombre completo de la protagonista?</p>
+  <input type="radio" name="question1" value="rebeccaBrah"> Rebecca Brah <br>
+  <input type="radio" name="question1" value="rachelBunch"> Rachel Bunch <br>
+  <input type="radio" name="question1" value="rebeccaNoraBunch"> Rebecca Nora Bunch <br>
+
+<p>¿Que universidad afirma Greg es el "Harvard del sur"?</p>
+  <input type="radio" name="question2" value="yale"> Yale <br>
+  <input type="radio" name="question2" value="Emory"> Emory <br>
+  <input type="radio" name="question2" value="VanderbiltUniversity"> Vanderbilt University <br>
+
+<p>¿Que trastorno de personalidad le diagnostican a Rebecca Bunch?</p>
+  <input type="radio" name="question3" value="histrionico"> histrionico <br>
+  <input type="radio" name="question3" value="bipolar"> bipolar <br>
+  <input type="radio" name="question3" value="borderline"> limite o borderline <br> <br>
+
+<input id ="button" type="button" name="button" value="He Terminado" onclick="check();">
+</form>
+</ol>
+<div id ="afterSubmit" class="column2">
+  <p id = "yourName"></p>
+  <p id = "numberCorrect"></p>
+  <p id = "message"> </p>
+</div>
+</div>
+</h3>
+  <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
